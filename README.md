@@ -1,9 +1,5 @@
 <!-- Table of Contents -->
 
-# :trophy: Genius Car Doctor Project [Genius Car Live Demo](https://genius-car-b5cb3.web.app/)
-
-This is a practice project I am working on learning React, React Router, Firebase Authentication, Pagination, MongoDB, Express, Node, JWT Authorization
-
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
@@ -72,7 +68,18 @@ This is a practice project I am working on learning React, React Router, Firebas
 
 - Feature 1
 - Feature 2
-- Feature 3 -->
+- Feature 3
+
+<!-- Color Reference -->
+
+### :art: Color Reference
+
+| Color           | Hex                                                              |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color   | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
+| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
+| Accent Color    | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
+| Text Color      | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
 
 <!-- Env Variables -->
 
@@ -135,7 +142,7 @@ Start the server
 
 <!-- Usage -->
 
-<!-- ## :eyes: Usage
+## :eyes: Usage
 
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
 
@@ -145,14 +152,14 @@ import Component from "my-project";
 function App() {
   return <Component />;
 }
-``` -->
+```
 
 <!-- Roadmap -->
 
-<!-- ## :compass: Roadmap
+## :compass: Roadmap
 
 - [x] Todo 1
-- [ ] Todo 2 -->
+- [ ] Todo 2
 
 <!-- Contributing -->
 
@@ -166,26 +173,23 @@ Feel free to `fork`. Message me at [Linkedin](https://linkedin.com/in/tashrique-
 
 ## :warning: License
 
-Copyright **Tashrique Ahmed**
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Distributed under the no License. See LICENSE.txt for more information.
 
 <!-- Contact -->
 
 ## :handshake: Contact
 
-Tashrique Ahmed
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-- [Linkedin](https://linkedin.com/in/tashrique-ahmed)
-- [@tashrique](https://twitter.com/tashrique)
-- [tashrique.com](https://www.tashrique.com)
+Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+
+<!-- Acknowledgments -->
+
+## :gem: Acknowledgements
+
+Use this section to mention useful resources and libraries that you have used in your projects.
+
+- [Shields.io](https://shields.io/)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
+- [Readme Template](https://github.com/othneildrew/Best-README-Template)
