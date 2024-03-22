@@ -14,18 +14,25 @@ const Login = () => {
     const [error, setError] = useState(null);
     const location = useLocation();
     const navigate = useNavigate();
-    const from = location.state?.from || '/';
+    const from = location.state?.from?.pathname || '/';
 
 
     const [email, setEmail] = useState('');
 
 
     const handleGoogle = () => {
-        Google();
+        Google()
+            .then(() =>
+                navigate(from, { replace: true })
+            )
     }
 
     const handleGithub = () => {
-        Github();
+        Github()
+            .then(() =>
+                navigate(from, { replace: true })
+            )
+
     }
 
     const handleSubmit = (e) => {
@@ -39,12 +46,29 @@ const Login = () => {
         login(email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user);
+
                 form.reset();
                 setError('');
 
                 if (user.emailVerified) {
-                    navigate(from, { replace: true });
+
+                    // get jwt token
+                    fetch('https://genius-car-server-nine-rho.vercel.app/jwt', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ email: user.email }),
+                    })
+                        .then(response => response.json())
+                        .then(data => {
+
+                            //LOCAL STORAGE is EASIEST but not the BEST way to store tokens
+                            localStorage.setItem('geniusToken', data.token);
+                            toast.success('Login successful');
+                            navigate(from, { replace: true });
+                        })
+
                 } else {
                     toast.error('Please verify your email.');
                 }

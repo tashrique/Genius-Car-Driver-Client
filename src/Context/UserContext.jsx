@@ -39,6 +39,7 @@ const UserContext = ({ children }) => {
 
     const logout = () => {
         setLoading(true);
+        localStorage.removeItem('geniusToken');
         return signOut(auth);
     }
 
@@ -65,7 +66,6 @@ const UserContext = ({ children }) => {
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-            console.log(currentUser);
             if (currentUser === null || currentUser.emailVerified) {
                 setUser(currentUser);
             } else {

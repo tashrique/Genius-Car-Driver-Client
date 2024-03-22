@@ -41,7 +41,6 @@ const Signup = () => {
         createUser(email, password)
             .then(result => {
                 const user = result.user;
-                console.log("Logged in", user);
                 form.reset();
                 setError('');
                 handleEmailVerification();

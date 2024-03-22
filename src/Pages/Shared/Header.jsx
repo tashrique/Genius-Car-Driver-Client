@@ -18,7 +18,7 @@ const Header = () => {
         {
             user && user?.uid ?
                 <>
-                    <li><Link to={'/'}>Profile</Link> </li>
+                    <li><Link to={'/orders'}>Orders</Link> </li>
                     <li><button onClick={handleLogout}>Logout</button> </li>
                 </> :
                 <>
