@@ -4,12 +4,6 @@
 
 This is a practice project I am working on learning React, React Router, Firebase Authentication, Pagination, MongoDB, Express, Node, JWT Authorization
 
-
-# :trophy: Genius Car Doctor Project (Tashrique Ahmed)
-
-A short description about the project. What was the purpose. 
-
-
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
