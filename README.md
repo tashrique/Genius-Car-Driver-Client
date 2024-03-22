@@ -1,31 +1,27 @@
 <!-- Table of Contents -->
 
+# :trophy: Genius Car Doctor Project [Genius Car Live Demo](https://genius-car-b5cb3.web.app/)
+
+This is a practice project I am working on learning React, React Router, Firebase Authentication, Pagination, MongoDB, Express, Node, JWT Authorization
+
 # :notebook_with_decorative_cover: Table of Contents
 
 - [About the Project](#star2-about-the-project)
   - [Tech Stack](#space_invader-tech-stack)
   - [Features](#dart-features)
-  - [Color Reference](#art-color-reference)
   - [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
   - [Run Locally](#running-run-locally)
-- [Usage](#eyes-usage)
-- [Roadmap](#compass-roadmap)
 - [Contributing](#wave-contributing)
-  - [Code of Conduct](#scroll-code-of-conduct)
 - [License](#warning-license)
 - [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
 
 <!-- About the Project -->
 
 ## :star2: About the Project
 
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div>
+![alt text](image.png)
 
 <!-- TechStack -->
 
@@ -34,38 +30,33 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li>Javascript</li>
+    <li>React.js</li>
+    <li>React Router</li>
+    <li>TailwindCSS</li>
+    <li>Firebase</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
+    <li>Javascript</li>
+    <li>Express.js</li>
+    <li>Node.js</li>
+    <li>JWT</li>
+    <li>Cors</li>
+    <li>Dotenv</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+    <li>MongoDB</li>
   </ul>
 </details>
-
+<!-- 
 <details>
 <summary>DevOps</summary>
   <ul>
@@ -73,26 +64,15 @@
     <li><a href="https://www.jenkins.io/">Jenkins</a></li>
     <li><a href="https://circleci.com/">CircleCLI</a></li>
   </ul>
-</details>
+</details> -->
 
 <!-- Features -->
-
+<!--
 ### :dart: Features
 
 - Feature 1
 - Feature 2
-- Feature 3
-
-<!-- Color Reference -->
-
-### :art: Color Reference
-
-| Color           | Hex                                                              |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color   | ![#222831](https://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color    | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color      | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+- Feature 3 -->
 
 <!-- Env Variables -->
 
@@ -100,9 +80,16 @@
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
+```
+    Firebase:
 
-`ANOTHER_API_KEY`
+    apiKey: import.meta.env.VITE_apiKey,
+    authDomain: import.meta.env.VITE_authDomain,
+    projectId: import.meta.env.VITE_projectId,
+    storageBucket: import.meta.env.VITE_storageBucket,
+    messagingSenderId: import.meta.env.VITE_messagingSenderId,
+    appId: import.meta.env.VITE_appId
+```
 
 <!-- Getting Started -->
 
@@ -112,54 +99,43 @@ To run this project, you will need to add the following environment variables to
 
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
+This project uses Vite as package manager
 
 ```bash
- npm install --global yarn
+ npm install --global vite
 ```
 
 <!-- Installation -->
-
-### :gear: Installation
-
-Install my-project with npm
-
-```bash
-  yarn install my-project
-  cd my-project
-```
-
-<!-- Run Locally -->
 
 ### :running: Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/tashrique/Genius-Car-Driver-Client.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Genius-Car-Driver-Client/
 ```
 
 Install dependencies
 
 ```bash
-  yarn install
+  npm install
 ```
 
 Start the server
 
 ```bash
-  yarn start
+  npm run dev
 ```
 
 <!-- Usage -->
 
-## :eyes: Usage
+<!-- ## :eyes: Usage
 
 Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
 
@@ -169,54 +145,47 @@ import Component from "my-project";
 function App() {
   return <Component />;
 }
-```
+``` -->
 
 <!-- Roadmap -->
 
-## :compass: Roadmap
+<!-- ## :compass: Roadmap
 
 - [x] Todo 1
-- [ ] Todo 2
+- [ ] Todo 2 -->
 
 <!-- Contributing -->
 
 ## :wave: Contributing
 
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
-
-<!-- Code of Conduct -->
-
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
+Feel free to `fork`. Message me at [Linkedin](https://linkedin.com/in/tashrique-ahmed) if you want.
 
 <!-- License -->
 
 ## :warning: License
 
-Distributed under the no License. See LICENSE.txt for more information.
+Copyright **Tashrique Ahmed**
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 <!-- Contact -->
 
 ## :handshake: Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Tashrique Ahmed
 
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-<!-- Acknowledgments -->
-
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
-- [Shields.io](https://shields.io/)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
-- [Readme Template](https://github.com/othneildrew/Best-README-Template)
+- [Linkedin](https://linkedin.com/in/tashrique-ahmed)
+- [@tashrique](https://twitter.com/tashrique)
+- [tashrique.com](https://www.tashrique.com)
