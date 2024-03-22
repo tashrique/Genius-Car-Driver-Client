@@ -3,7 +3,8 @@
 # :trophy: Genius Car Doctor Project [Genius Car Live Demo](https://genius-car-b5cb3.web.app/)
 
 This is a practice project I am working on learning React, React Router, Firebase Authentication, Pagination, MongoDB, Express, Node, JWT Authorization
-=======
+
+
 # :trophy: Genius Car Doctor Project (Tashrique Ahmed)
 
 A short description about the project. What was the purpose. 
@@ -80,7 +81,6 @@ A short description about the project. What was the purpose.
 
 - Feature 3 -->
 
-- Feature 3
 
 
 <!-- Env Variables -->
